@@ -1,1 +1,1 @@
-hugo --minify --destination "/Volumes/sync/www"
+hugo --minify --destination "./docs"
