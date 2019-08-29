@@ -1,3 +1,0 @@
-# hugo
-
-brew install hugo

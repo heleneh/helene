@@ -4,7 +4,7 @@
     {{ block "head" . }} {{ partial "head.html" . }} {{ end }}
     {{ block "head_resources" . }}
     {{ if .Site.IsServer }}
-    <script src="/assets/js/main.js"></script>
+    <script src={{ "assets/js/main.js" | relURL }}></script>
     {{ else }}
     <script>{{ readFile "/static/assets/js/main.js" | safeJS }}</script>
     {{ end }}

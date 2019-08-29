@@ -5,6 +5,7 @@ isMultilingual           = false
 title                    = "helene"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
+relativeURLs             = true
 
 [params]
     dateform             = "Mon Jan 02, 2006"
@@ -14,7 +15,7 @@ pygmentsCodefences       = true
 
 # Metadata for Open Graph and Twitter
     description          = "helene hahn personal visiting card"               # Max 160 characters show in search results
-    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    images               = [""]                       # Image that shows on Twitter cards and Open Graph links to the site
     title                = "helene"
 
 [[params.mainMenu]]
