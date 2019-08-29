@@ -1,0 +1,18 @@
+{{ define "section_content" }}
+<div class="section section-content">
+	{{ .Content }}
+	<h2>{{ .Params.talks.title }}</h2>
+	{{ range $talk := .Params.talks.items }}
+	<p class="talk">
+		<i class="icon-right-dir"></i>
+		{{ if not (eq $talk.url "") }}
+		<a href="{{$talk.url}}" rel="noopener" target="_blank">{{$talk.name}}</a>
+		{{ else }}
+		<a class="title">{{$talk.name}}</a>
+		{{ end}}
+		&#183; {{$talk.type}}<br/>
+		<span>{{$talk.org}}</span> &#183; <span>{{$talk.place}}</span> &#183; <span>{{$talk.year}}</span>
+	</p>
+	{{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,7 @@
+<div class="section section-title">
+	<span><a href="{{ .Site.Home.Permalink }}">helene</a>
+		{{ if .Parent }}{{ if not .Parent.IsHome }}
+		&#183; <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a>
+		{{ end }}{{ end }}
+		&#183; {{ .Title }}</span>
+</div>

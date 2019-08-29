@@ -1,0 +1,10 @@
+{{ $ytID := .Get 0 }}
+{{ $ytTime := .Get 1 }}
+<div class="yt-player">
+	<div id="yt-enable-{{ $ytID }}" class="yt-enable" onclick="document.getElementById('yt-{{ $ytID }}').src = '//www.youtube.com/embed/{{ $ytID }}';
+	document.getElementById('yt-enable-{{ $ytID }}').style.display='none';
+	document.getElementById('yt-{{ $ytID }}').style.display='block';
+">Click to enable Youtube Video Player</div>
+	<iframe id="yt-{{ $ytID }}" class="yt-iframe" src="" frameborder="0" style="display:none" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<!--<a href="https://www.youtube.com/watch?time_continue={{ $ytTime }}&v={{ $ytID }}" target="_blank">https://www.youtube.com/watch?v={{ $ytID }}</a>-->

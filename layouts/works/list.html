@@ -1,0 +1,30 @@
+{{ define "section_content" }}
+<div class="section section-content">
+	{{ .Content }}
+	<h2>{{ .Params.work.title }}</h2>
+	{{ range $work := .Params.work.items }}
+	<p class="work">
+		<i class="icon-right-dir"></i>
+		{{ if not (eq $work.url "") }}
+		<a href="{{$work.url}}" rel="noopener" target="_blank">{{$work.name}}</a>
+		{{ else }}
+		<a class="title">{{$work.name}}</a>
+		{{ end}}
+		 &#183; {{$work.type}} &#183; <small>{{$work.year}}</small><br/>
+		<small>{{$work.desc}}</small>
+	</p>
+	{{ end }}
+	<h2>{{ .Params.projects.title }}</h2>
+</div>
+
+<div class="boxes">
+	{{ range .Pages }}
+	<a class="box" href="{{ .RelPermalink }}">
+		<div class="box-title">{{ .Title }}
+			<span class="box-slogan">{{ .Params.slogan }}</span>
+		</div>
+	</a>
+	{{ end }}
+</div>
+
+{{ end }}

@@ -1,0 +1,4 @@
+Didact Gothic	SIL Open Font License, 1.1
+DidactGothic-Regular.ttf: Copyright 2016 The Didact Gothic Project Authors (il.basso.buffo@gmail.com)
+SIL Open Font License, 1.1
+http://scripts.sil.org/OFL

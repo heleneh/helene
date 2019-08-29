@@ -1,0 +1,36 @@
+$background-color-light: #fff;
+$body-text-light: lighten(#000,15%);
+$links-light: #39424E;
+$links-hover-light: #000;
+$quote-background-light: darken(#fff, 20%);
+$quote-color-light: #39424E;
+
+$background-color-dark: #39424E;
+$body-text-dark: darken(#fff, 10%);
+$links-dark: #fff;
+$links-hover-dark: darken(#fff, 5%);
+$quote-background-dark: darken(#fff, 20%);
+$quote-color-dark: #39424E;
+
+$font: "Didact Gothic", "sans serif";
+$body-size: 16px;
+
+$frame-background-dark: #2a2f4a;
+$frame-background: #dadada;
+
+$accent1: #6fc3df;
+$accent2: #8d82c4;
+$accent3: #ec8d81;
+$accent4: #e7b788;
+$accent5: #87c5a4;
+$accent6: #8ea9e8;
+
+// Breakpoints
+$bp-pico: 280px;
+$bp-tiny: 400px;
+$bp-small: 500px;
+$bp-medium: 700px;
+$bp-large: 1000px;
+$bp-huge: 1400px;
+$bp-jumbo: 1900px;
+$bp-ludicrous: 3000px;

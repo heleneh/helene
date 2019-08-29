@@ -1,0 +1,25 @@
+{{ $imgPath := .Get "src" }}
+{{ $imgTitle := .Get "title" }}
+{{ $imgLicense := .Get "license" }}
+{{ $imgLicenseUrl := .Get "license_url" }}
+{{ $imgSourceUrl := .Get "source_url" }}
+{{ $imgWidth := .Get "width" }}
+<p class="img-container">
+	<img src="{{ $imgPath }}" alt="{{ $imgTitle }}"
+		 {{ if (eq $imgWidth "original") }}
+	      class="img-original-width"
+	     {{ end}}
+	/>
+	<span>
+		{{ if not (eq $imgLicense "") }}
+		{{ if not (eq $imgLicenseUrl "") }}
+			<a href="{{ $imgLicenseUrl }}" target="_blank" rel="noopener">{{ $imgLicense }}</a>
+		{{ else }}
+			{{ $imgLicense }}
+		{{ end}}
+		{{ end}}
+		{{ if not (eq $imgSourceUrl "") }}
+		&#183; <a href="{{ $imgSourceUrl }}" target="_blank" rel="noopener">Source</a>
+		{{ end}}
+	</span>
+</p>

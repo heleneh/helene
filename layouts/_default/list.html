@@ -1,0 +1,15 @@
+{{ define "section_content" }}
+<div class="section section-content">
+    {{ .Content }}
+    <ul>
+        {{ range .Data.Pages }}
+        <li>
+            {{ if .Params.showDate }}
+            {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 01, 2000")}} --
+            {{ end }}
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

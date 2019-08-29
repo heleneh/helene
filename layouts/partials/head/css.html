@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/assets/fonts/fontello/css/lh.css">
+<link rel="stylesheet" href="/assets/fonts/didact-gothic/css/font.css">
+{{ $bundleRaw := resources.Get "/scss/style.scss" | resources.ExecuteAsTemplate "/css/main.tmp.css" . }}
+{{ if .Site.IsServer }}
+    {{ $cssOpts := (dict "targetPath" "/css/main.css" "enableSourceMap" true ) }}
+    {{ $bundle := $bundleRaw | toCSS $cssOpts }}
+    <link rel="stylesheet" href="{{ $bundle.RelPermalink }}" media="screen">
+{{ else }}
+
+{{ $inline := resources.Get "/scss/style.scss" | resources.ExecuteAsTemplate "style.critical.scss" . | toCSS | minify}}
+    <style class="inline">{{ (slice $inline | resources.Concat "style.scss").Content | safeCSS }}</style>
+
+<!--    {{ $cssOpts := (dict "targetPath" "/css/main.css" ) }}-->
+<!--    {{ $bundle := $bundleRaw | resources.ToCSS | resources.Minify | resources.Fingerprint }}-->
+<!--    <link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous" media="screen">-->
+{{ end }}
+<!-- Custom css -->{{ range .Site.Params.customCSS -}} {{ $style := resources.Get . }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen">
+{{- end }}

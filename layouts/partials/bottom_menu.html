@@ -1,0 +1,42 @@
+{{ if or ((.Page.Site.Params.mainMenu) (.show_back_menu_item)) }}
+<hr/>
+<p>
+	<a href="{{.Page.Site.BaseURL}}">{{ .Page.Site.Params.homepage }}</a>
+	&#183;
+	{{ if .show_back_menu_item }}
+	<a href="{{ .Page.Section | relURL }}">back</a>
+	{{ if .Page.Site.Params.mainMenu }}&#183;{{ end }}
+	{{ end }}
+	{{ if .Page.Site.Params.mainMenu }}
+	{{ range first 1 .Page.Site.Params.mainMenu }}
+	<a href="{{ .link }}">{{ .text }}</a>
+	{{ end }}
+	{{ if ( gt ( len .Page.Site.Params.mainMenu ) 1 ) }}
+	{{ range after 1 .Page.Site.Params.mainMenu }}
+	&#183;
+	<a href="{{ .link }}">{{ .text }}</a>
+	{{ end }}
+	{{ end }}
+	{{ end }}
+</p>
+
+{{ if eq .Page.Type "project" }}
+{{ $currentPage := .Page }}
+{{ $submenuPage := .Page.Parent }}
+<hr/>
+<p>
+	{{ range first 1 $submenuPage.Pages }}
+    <a href="{{ .RelPermalink }}"
+       {{ if eq $currentPage.RelPermalink .RelPermalink }}class="active"{{ end }}
+    >{{ .Title }}</a>
+	{{ end }}
+	{{ range after 1 $submenuPage.Pages }}
+	&#183;
+	<a href="{{ .RelPermalink }}"
+       {{ if eq $currentPage.RelPermalink .RelPermalink }}class="active"{{ end }}
+    >{{ .Title }}</a>
+	{{ end }}
+</p>
+
+{{ end }}
+{{ end }}
