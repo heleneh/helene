@@ -9,22 +9,22 @@ talks:
 
     - org: "Servicestelle Digitalisierung Berlin (digiS) - Jahrestagung"
       url: "https://www.digis-berlin.de/digis/veranstaltungen/digis-jahreskonferenzen/"
-      name: 'DatenWerte - Werte Daten'
-      type: "upcoming session"
+      name: 'DatenWerte - WerteDaten'
+      type: "input session and panel discussion"
       place: "Berlin"
       year: "2019"
 
     - org: "Verband dt. Archivarinnen und Archivare e.V., AK Offene Archive"
       url: "https://archive20.hypotheses.org/7199"
-      name: 'Open Archives - 5th Conference with ArchivCamp'
-      type: "upcoming panel discussion"
+      name: 'Offene Archive? Kulturelle und digitale Offenheit: Archive im Spannungsfeld von Netz- und Kulturpolitik'
+      type: "panel discussion"
       place: "Berlin"
       year: "2019"
 
     - org: "Goethe-Institut Indonesia"
       url: ""
       name: 'Reimagining GLAM institutions in the digital era'
-      type: "upcoming keynote and input session"
+      type: "keynote and input session"
       place: "Jakarta"
       year: "2019"
 
