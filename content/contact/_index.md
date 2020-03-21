@@ -2,7 +2,7 @@
 title: "contact"
 ---
 
-Email me: helene.hahn@posteo.de
+E-mail me: helene.hahn AT posteo.de
 
 The content of this website is licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless stated otherwise.
 

@@ -8,7 +8,7 @@ talks:
     
 
     - org: "Servicestelle Digitalisierung Berlin (digiS) - Jahrestagung"
-      url: "https://www.digis-berlin.de/digis/veranstaltungen/digis-jahreskonferenzen/"
+      url: "https://www.digis-berlin.de/nachlese-digis-jahreskonferenz-2019-wertedaten-datenwerte/"
       name: 'DatenWerte - WerteDaten'
       type: "input session and panel discussion"
       place: "Berlin"
@@ -50,21 +50,21 @@ talks:
       year: "2018"
 
     - org: "Brandenburgische Landeszentrale für politische Bildung"
-      url: "https://www.politische-bildung-brandenburg.de/veranstaltungen/wie-das-internet-demokratisches-engagement-verändert-und-wie-wir-damit-umgehen"
+      url: ""
       name: 'Wie das Internet demokratisches Engagement verändert und wie wir damit umgehen'
       type: "talk"
       place: "Potsdam"
       year: "2018"
 
     - org: "Museum für Naturkunde"
-      url: "http://navi.code.naturkundemuseum.berlin/tagung/Helene_Hahn_-_Building_relationships_to_knowledge_-_how_museums_envolve_from_keepers_to_shares"
+      url: ""
       name: 'Building relationships to knowledge - How museums evolve from keepers to sharers'
       type: "talk"
       place: "Berlin"
       year: "2018"
 
     - org: "Landesdigitalisierungprogramm (LDP) Sachsen Digital"
-      url: "https://sachsen.digital/das-programm/workshop-ldp-2017/"
+      url: ""
       name: 'From Open minds to open actions'
       type: "keynote"
       place: "Dresden"
@@ -77,8 +77,22 @@ talks:
       place: "Berlin"
       year: "2017"
 
+    - org: "Bundeszentral für politische Bildung"
+      url: "https://www.bpb.de/lernen/digitale-bildung/werkstatt/257553/digitale-tools-koennen-menschen-eine-stimme-geben-die-politisch-wenig-gehoert-werden-"
+      name: 'Digitale Tools können Menschen eine Stimme geben, die politisch wenig gehört werden'
+      type: "interview"
+      place: "Berlin"
+      year: "2017"
+
+    - org: "Betterplace lab"
+      url: ""
+      name: 'Studie: Digitalisierung in Non-profit Organisationen. Strategien, Kultur und Kompetenzen im digitalen Wandel'
+      type: "interview"
+      place: "Berlin"
+      year: "2017"
+
     - org: "Sharing is Caring"
-      url: "http://sharecare.nu/building-bridges-between-cultural-institutions-and-tech-communities-a-collaborative-handbook/"
+      url: ""
       name: 'Building bridges between cultural heritage institutions and tech communities'
       type: "workshop"
       place: "Hamburg"
@@ -92,7 +106,7 @@ talks:
       year: "2017"
     
     - org: "Federal Ministry for Family Affairs, Senior Citizens, Women and Youth"
-      url: "https://www.bmfsfj.de/bmfsfj/mediathek/digitale-agenda-fuer-eine-lebenswerte-gesellschaft/117344"
+      url: ""
       name: "Digitales Ehrenamt stärken, politische Teilhabe fördern"
       type: "talk and workshop"
       place: "Berlin"
@@ -106,7 +120,7 @@ talks:
       year: "2016"
 
     - org: "re:publica"
-      url: "https://16.re-publica.de/16/session/eiszeit-verstaubte-daten"
+      url: ""
       name: "Eiszeit für verstaubte Daten"
       type: "talk"
       place: "Berlin"
@@ -120,7 +134,7 @@ talks:
       year: "2016"
 
     - org: "Digital Scholarly Editions Initial Training Network (Dixit)"
-      url: "dixit.uni-koeln.de/convention-2-abstracts/"
+      url: ""
       name: 'OpenGLAM & Civic Tech - working with communities'
       type: "talk"
       place: "Cologne"
@@ -128,27 +142,27 @@ talks:
 
     - org: "Hochschule für Angewandte Wissenschaften (HAW)"
       url: ""
-      name: 'Doing good with data - what it means in practice'
+      name: 'A critical approach to data for good and what it means in practice'
       type: "guest lecture"
       place: "Hamburg"
       year: "2016"
 
     - org: "TEDx BSEL"
-      url: "https://www.youtube.com/watch?v=qiJ_x1HbS6M"
+      url: ""
       name: "Overcoming the cultural gap with open culture"
       type: "talk"
       place: "Berlin"
       year: "2015"
 
     - org: "Creative Commons Conference"
-      url: "http://cckorea.org/xe/english/1323806"
-      name: "On the value of open culture for heritage institutions and society"
+      url: ""
+      name: "Recreated Culture and Art of the Past"
       type: "talk"
       place: "Seoul"
       year: "2014"
 
     - org: "re:publica"
-      url: "https://16.re-publica.de/14/session/sciencelab-lightning-talks"
+      url: ""
       name: "Kulturerbe- analoger Staubhaufen oder digitale Schatzkammer?"
       type: "lightning talk"
       place: "Berlin"

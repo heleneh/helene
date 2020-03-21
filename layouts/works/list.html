@@ -1,5 +1,7 @@
 {{ define "section_content" }}
+
 <div class="section section-content">
+	<!-- 
 	{{ .Content }}
 	<h2>{{ .Params.work.title }}</h2>
 	{{ range $work := .Params.work.items }}
@@ -14,8 +16,10 @@
 		<small>{{$work.desc}}</small>
 	</p>
 	{{ end }}
+	 -->
 	<h2>{{ .Params.projects.title }}</h2>
 </div>
+
 
 <div class="boxes">
 	{{ range .Pages }}
