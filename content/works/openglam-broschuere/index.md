@@ -11,6 +11,6 @@ projectUrl: "http://nbn-resolving.de/urn:nbn:de:0297-zib-59131"
 
 The booklet [Kooperativ in die digitale Zeit: Projekte von Gedächtnisinstitutionen zur Stärkung der Cultural Commons](http://nbn-resolving.de/urn:nbn:de:0297-zib-59131) is an introduction to cultural commons, open licences, the public domain and the values of open cultural data for heritage institutions. 
 
-I've written this booklet in 2016 with the aim to support the open culture movement in Germany. Since then, it has been updated and published by the Zuse Institute Berlin, the Service Centre for Digitalisation. 
+I've written this booklet in 2016 with the aim to support the local open culture movement in Germany. Since then, it has been updated and published by the Service Centre for Digitalisation Berlin at the Zuse Institute.
 
-It's available in German (for now, stay tuned!).
+It's especially exciting to see the booklet being useful to communities and organisation outside of Germany too: It has been translated to Indonesian by the regional Goethe Institut. Find the copy here: [Kerja sama pada era digital](https://www.goethe.de/resources/files/pdf202/buklet-kerja-sama-pada-era-digital.pdf).
