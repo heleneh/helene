@@ -7,7 +7,7 @@ slogan: "A data training event around the EU and its money flows"
 projectUrl: "https://storyhunt.de"
 ---
 
-{{%image src="/assets/images/storyhunt.jpg" title="Postkarte: Grüner Wald" license="Public domain/ CC0 1.0" license_url="https://creativecommons.org/publicdomain/zero/1.0/deed.de" source_url="https://storyhunt.de/" %}}
+{{< image src="/assets/images/storyhunt.jpg" title="Postkarte: Grüner Wald" license="Public domain/ CC0 1.0" license_url="https://creativecommons.org/publicdomain/zero/1.0/deed.de" source_url="https://storyhunt.de/" >}}
 
 The [StoryHunt: Uncover the EU](https://storyhunt.de) was a training programme designed to develop and apply the skills needed to find interesting stories in financial data. With the StoryHunt we offered an opportunity to practice the necessary skills in a supportive peer-to-peer learning environment.
 
