@@ -5,7 +5,14 @@ type: "talks"
 talks:
   title: "A selection of my public speaking activities"
   items:
-    
+
+
+    - org: "Access Now"
+      url: "https://www.rightscon.org/"
+      name: 'Algorithmic decision-support systems in the asylum context: How do states seek to legitimize their use? Examples from Germany'
+      type: "talk and Q&A"
+      place: "International waters"
+      year: "2021"
 
     - org: "Servicestelle Digitalisierung Berlin (digiS) - Jahrestagung"
       url: "https://www.digis-berlin.de/nachlese-digis-jahreskonferenz-2019-wertedaten-datenwerte/"
@@ -85,7 +92,7 @@ talks:
       year: "2017"
 
     - org: "Betterplace lab"
-      url: ""
+      url: "https://www.betterplace-lab.org/digitalisierung-in-nonprofit-organisationen"
       name: 'Studie: Digitalisierung in Non-profit Organisationen. Strategien, Kultur und Kompetenzen im digitalen Wandel'
       type: "interview"
       place: "Berlin"
@@ -104,7 +111,7 @@ talks:
       type: "expert discussion"
       place: "Berlin"
       year: "2017"
-    
+
     - org: "Federal Ministry for Family Affairs, Senior Citizens, Women and Youth"
       url: ""
       name: "Digitales Ehrenamt stärken, politische Teilhabe fördern"

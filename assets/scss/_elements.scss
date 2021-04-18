@@ -415,6 +415,11 @@
     align-self: stretch;
     background-color: white;
 
+    &.box-large {
+      width: 100%;
+      order: -1;
+    }
+
     .image {
       display: none;
     }
@@ -585,4 +590,8 @@
   .yt-player {
     background: $frame-background-dark;
   }
+}
+
+.color-a, .color-a a {
+  color: #36AE9A;
 }

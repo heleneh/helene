@@ -1,7 +1,7 @@
 {{ define "section_content" }}
 
 <div class="section section-content">
-	<!-- 
+	<!--
 	{{ .Content }}
 	<h2>{{ .Params.work.title }}</h2>
 	{{ range $work := .Params.work.items }}
@@ -23,7 +23,7 @@
 
 <div class="boxes">
 	{{ range .Pages }}
-	<a class="box" href="{{ .RelPermalink }}">
+	<a class="box{{if isset .Params "large"}}{{ cond .Params.large " box-large" "" }}{{ end }}" href="{{ .RelPermalink }}">
 		<div class="box-title">{{ .Title }}
 			<span class="box-slogan">{{ .Params.slogan }}</span>
 		</div>
