@@ -7,7 +7,7 @@ talks:
   items:
 
 
-    - org: "Access Now"
+    - org: "Access Now - RightsCon"
       url: "https://www.rightscon.org/"
       name: 'Algorithmic decision-support systems in the asylum context: How do states seek to legitimize their use? Examples from Germany'
       type: "talk and Q&A"

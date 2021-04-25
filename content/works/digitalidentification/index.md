@@ -47,4 +47,4 @@ The results of the analysis revealed four main justification patterns:
 * The emphasis on efficiency and IDM-S’ high level of innovation implied the usefulness of the digital systems stemming from their easy application, cost and time efficiency, as well as the ability to produce fast results. Innovation and agility underlined the self-proclaimed image of a modern, tech-savvy administration.
 * The last pattern portrayed efforts to uphold the impression of rational and objective governmental operations based on the mathematical-technical approach used to generate the systems’ results.
 
-Ultimately, the findings encourages searching for better alternatives to the currently applied tech-heavy programme - alternatives that are firmly grounded in democratic governance principles and that adequately account for asylum seekers’ right to privacy as well as their vulnerable status.
+Ultimately, the findings encourage searching for better alternatives to the currently applied tech-heavy programme - alternatives that are firmly grounded in democratic governance principles and that adequately account for asylum seekers’ right to privacy as well as their vulnerable status.
